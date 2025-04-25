@@ -26,13 +26,30 @@ Before running this project, you will need to have the following installed:
 
 - Python 3.x
 - pip (Python package installer)
+- Jupyter Notebook
 - Git
 - [Git LFS](https://git-lfs.github.com/) (for handling large files like `.pkl`)
 
-### Setup
+## Setup
 
-1. Clone the repository:
+1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/ShivtejGaikwad29/movie-recommend.git
+   git clone https://github.com/Tejas1730/Movie-Recommandation-AI.git
    cd movie-recommend
+2. **Install the required libraries**:
+
+   Make sure all dependencies are installed:
+
+   ```bash
+   pip install pandas numpy scikit-learn
+   pip install streamlit
+3. **Run the python ipynb file**:
+
+   ```bash
+   jupyter nbconvert --to notebook --execute --inplace movierecommend.ipynb   
+
+4. **Run the python app.py**:
+
+   ```bash
+   streamlit run app.py
