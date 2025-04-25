@@ -37,6 +37,7 @@ Before running this project, you will need to have the following installed:
    ```bash
    git clone https://github.com/Tejas1730/Movie-Recommandation-AI.git
    cd movie-recommend
+   
 2. **Install the required libraries**:
 
    Make sure all dependencies are installed:
@@ -44,6 +45,7 @@ Before running this project, you will need to have the following installed:
    ```bash
    pip install pandas numpy scikit-learn
    pip install streamlit
+   
 3. **Run the python ipynb file**:
 
    ```bash
@@ -53,3 +55,6 @@ Before running this project, you will need to have the following installed:
 
    ```bash
    streamlit run app.py
+   
+### Contributing
+    Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
